@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+div{
+    margin:0;
+    padding:0;
+}
+.options{
+    background-color: rgb(68, 58, 58);
+    height: 60px;
+    width:100vw;
+}  
+.slider{
+    width: 400px;
+}
+.slider:hover {
+    opacity: 1;
+}  
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blanchedalmond;
+    height:100vh;
+    width:100vw;
+}
+#sketchBox{
+    display:grid;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    padding:0;
+    gap:0;
+}
+.grid{
+    margin:0;
+    padding:0;
+    flex:1;
+}
+.black{
+    background-color:black;
+}
