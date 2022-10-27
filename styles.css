@@ -40,4 +40,13 @@ div{
 }
 .black{
     background-color:black;
+    transition-duration: .9s;
+}
+.color{
+    transition-duration: .9s;
+}
+.gray{
+    background-color: black;
+    filter:opacity(0.1);
+    transition-duration: .9s;
 }
